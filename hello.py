@@ -4,3 +4,4 @@ print ("i'm learning python step by step")
 print("i want to confirm if this code runs successfully\ndo you want to run it?")
 print ("the code i run didnt run as it's suppose to\n i hope it does this time")
 print("hello\nworld")
+print "hello\nworld"
