@@ -1,0 +1,25 @@
+# What is a Computer Network?
+Computer Network is is simply two or more computing devices conneced together so they can communicate and share information.
+
+MAC Address - stands for Media Access Control. 
+A MAC Address is a hardware -level identifier assigned to a network interface.
+
+IP Address - stands for internet protocol 
+An IP Address provides a logical address that helps devices communicate accross the networks.
+
+Differences between MAC Address and IP Address 
+
+MAC Address                                IP Address 
+* identifies a network interface           provides a logical network address
+* used for local network delivery          used for communication accross IP network address
+* operates at OSI Layer 2                  operate at OSI Layer 3
+
+# What DHCP does?
+DHCP - stands for Dynamic Host Configuration Protocol
+DHCP automatically assign IP Address to network devices dynamically
+
+# What ARP does 
+ARP stands for Address Resolution Protocol
+ARP help discover MAC Address associated with IPV4 address 
+
+"To identify your IP address 'Bash ipconfig'"
