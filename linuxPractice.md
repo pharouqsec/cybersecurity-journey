@@ -2,4 +2,4 @@ print ("i changed a directory permission to 640 and when i try to access the dir
 print ("'lesson learnt' without the "execute" access. owner, group, and others cannot have access directory/file.")
 print ("i realised i can't change permission to a file if i'm inside it, to change/give permission, i need to be in the file directory.")
 print ("i was looking for how to open a second file i created under a directory, i used the 'Nano' command and it take me to a page where i can edit and i learn to use 'ctrl X' to move out of the page back to my terminal.")
-print ("'lesson learnt' - how Nano command works and how to go back to the terminal from the edit page.")
+print ("'lesson learnt' - how Nano command works and how to go back to the terminal from the edit page.") 
