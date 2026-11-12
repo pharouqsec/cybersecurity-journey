@@ -20,7 +20,7 @@ DHCP - stands for Dynamic Host Configuration Protocol
 DHCP automatically assign IP Address to network devices dynamically
 
 ## What ARP does 
-ARP stands for Address Resolution Protocol
+*ARP stands for Address Resolution Protocol*
 ARP help discover MAC Address associated with IPV4 address 
 
 **Command used to identify window ip address**
