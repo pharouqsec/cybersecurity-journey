@@ -11,9 +11,9 @@ An IP Address provides a logical address that helps devices communicate accross 
 ### Differences between MAC Address and IP Address 
 
 MAC Address                                IP Address 
-* identifies a network interface           provides a logical network address
-* used for local network delivery          used for communication accross IP network address
-* operates at OSI Layer 2                  operate at OSI Layer 3
+*identifies a network interface*           *provides a logical network address*
+*used for local network delivery*          *used for communication accross IP network address*
+*operates at OSI Layer 2*                  *operate at OSI Layer 3*
 
 ## What DHCP does?
 DHCP - stands for Dynamic Host Configuration Protocol
