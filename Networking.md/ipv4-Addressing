@@ -1,0 +1,50 @@
+# **IPV4 Addressing**
+
+## What does IPV4 means?
+IPV4 stands for internet Protocol version 4
+it's a system used to assign logical addresses to device communicating over a Network.
+
+### What an OCTET means?
+An OCTET 
+An octet is one of the four sections of an IPv4 address. Each octet contains 8 bits and has a decimal value ranging from 0 to 255
+---
+**The three (3) private IPv4 ranges.**
+'''
+private range 1
+starts with 10.x.x.x
+examples: 10.10.0.1, 10.25.4.8
+'''
+---
+private range 2 
+'''
+starts with 172 but the second number must be 16-31
+172.16.31.x
+examles: 172.16.0.1, 172.20.5.4, 172.31.10.2 
+'''
+---
+private range 3 
+'''
+starts with 192.168
+192.168.x.x
+examples: 192.168.1.1, 192.168.50.25
+'''
+---
+## The difference between private and public IP addresses.
+A private IP address is used inside a private network such as home, office or school 
+A public IP address identifies your network on public internet.
+---
+## What NAT does?
+NAT stands for *Network Address Translation* 
+NAT translate traffic between privivate and pubic internet connection.
+---
+## The purpose of **default gateway**
+Default gateway is used to reach other network
+*A default gateway is the device (usually your router) that allows your computer to communicate with devices outside its local network, such as the internet.*
+---
+Command practiced in this session 
+'''cmd 
+ipconfig
+'''
+'''cmd 
+ping 'my gateway address'
+'''
