@@ -10,3 +10,5 @@ A network address is the unique identifier for a network segment, while a broadc
 ### practical commands used was **{ipconfig}**
 what i discovered about my laptop subnet mask is that it is 255.255.255.0 and falls under the /24 category. This means that the first 24 bits of the subnet mask are set to 1, and the remaining 8 bits are set to 0.   
 in short, i discovered my subnet mask is under the /24 categories with 256 possible IP addresses, 254 usable addresses for hosts. The network address is the first address in the range, and the broadcast address is the last address in the range.
+----
+Note: An IP address is a unique identifier for a device on a network, while a subnet mask is used to determine the network and host portions of that IP address.
