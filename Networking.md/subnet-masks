@@ -1,0 +1,12 @@
+# What is a subnet mask?
+A subnet mask is a 32-bit number that divides an IP address into network and host portions. It is used to determine which part of an IP address belongs to the network and which part belongs to the host.
+## What a subnet mask does?
+A subnet mask helps in identifying the network and host portions of an IP address, enabling devices to communicate within the same network segment.
+## what does /24 means?
+The "/24" notation indicates that the first 24 bits of the subnet mask are set to 1, and the remaining 8 bits are set to 0. This corresponds to a subnet mask of 255.255.255.0.
+## What is the difference between a network address and a broadcast address?
+A network address is the unique identifier for a network segment, while a broadcast address is used to send messages to all devices within that segment.
+---
+### practical commands used was **{ipconfig}**
+what i discovered about my laptop subnet mask is that it is 255.255.255.0 and falls under the /24 category. This means that the first 24 bits of the subnet mask are set to 1, and the remaining 8 bits are set to 0.   
+in short, i discovered my subnet mask is under the /24 categories with 256 possible IP addresses, 254 usable addresses for hosts. The network address is the first address in the range, and the broadcast address is the last address in the range.
