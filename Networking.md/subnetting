@@ -1,0 +1,14 @@
+# what is subnetting?
+subneting is how we divide Network into smaller sections.
+## what CIDR notation means?
+CIDR means classless inter-domain routing. it helps identify the subnet an ip address belongs to and the total number of ip address in it including the first and last usable address.
+### The difference between /24 and /25.
+the /24 and /25 both determine how many bits is reserved for Network and the number of bits reserved for host. 
+CIDR /24 uses 24 network bits and leaves 8 host bits, giving 256 total IP addresses and 254 usable addresses. CIDR /25 uses 25 network bits and leaves 7 host bits, giving 128 total IP addresses and 126 usable addresses. Therefore, /25 divides a /24 network into two smaller subnets, each with 126 usable host addresses.
+ ### Numbers of usuable address each provides.
+ /24 provides 254 usable address while /25 provides 126 usuable address.
+ 
+ **The two subnet created when dividing 192.168.1.0/24 into two /25 networks are 192.168.1.0/25 and 192.168.1.128/25
+
+---
+*What i observe when i run ipconfig. it shows my ipv4 address, its subnet mask without the CIDR notation but i can tell its /24 and it also shows my network default gateway*
