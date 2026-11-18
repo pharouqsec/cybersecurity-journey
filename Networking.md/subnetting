@@ -1,5 +1,5 @@
 # what is subnetting?
-subneting is how we divide Network into smaller sections.
+subneting is how we divide Network into smaller sections, organised networks.
 ## what CIDR notation means?
 CIDR means classless inter-domain routing. it helps identify the subnet an ip address belongs to and the total number of ip address in it including the first and last usable address.
 ### The difference between /24 and /25.
