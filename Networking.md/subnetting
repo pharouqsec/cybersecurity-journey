@@ -12,3 +12,23 @@ CIDR /24 uses 24 network bits and leaves 8 host bits, giving 256 total IP addres
 
 ---
 *What i observe when i run ipconfig. it shows my ipv4 address, its subnet mask without the CIDR notation but i can tell its /24 and it also shows my network default gateway*
+---
+The difference /24 and /25 
+/24 has 256 total ip address with 254 usable address while /25 have 128 total ip address with 126 usable address 
+---
+Their respective subnet mask is: 
+/24 = 255.255.255.0
+/25 = 255.255.255.128
+---
+The two /25 range = 0 - 127 & 0 - 255
+---
+The calculation for 192.168.1.150/25
+32 network bit - /25 network bit = 7 host bits 
+block size = 2^7 2*2*2*2*2*2*2 = 128 total ip address 
+usuable address = 128 total address - 2(1for network & 1 for broadcast) = 126 usuable address.
+first subnet 0 - 127
+second subnet 128 - 255
+192.168.1.150 falls under second subnet which makes it network address 192.168.1.128
+first usuable addr. = 192.168.1.129
+last usuable addr. = 192.168.1.254
+broadcast addr. = 192.168.1.255
